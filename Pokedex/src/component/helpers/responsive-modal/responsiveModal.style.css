@@ -1,0 +1,130 @@
+.responsive-modal_root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.responsive-modal {
+  display: flex;
+  background-color: white;
+  width: 75%;
+  min-height: 600px;
+  height: 90%;
+  color: #2e3156;
+  font-weight: 600;
+  padding: 18px;
+  margin: 18px;
+  flex-direction: column;
+  border: 1px solid #2e3156;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.type-button-responsive {
+  display: flex;
+  text-align: start;
+  background-color: white;
+  color: #2e3156;
+  font-weight: bold;
+  padding: 18px;
+  margin: 18px;
+  border: 1px solid #2e3156;
+  border-radius: 10px;
+}
+
+.gender-responsive {
+  display: flex;
+  color: #2e3156;
+  font-weight: bold;
+  background-color: white;
+  padding: 18px;
+  margin: 18px;
+  flex-direction: row;
+  border: 1px solid #2e3156;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.stats-button-responsive {
+  background-color: white;
+  display: flex;
+  color: #2e3156;
+  font-weight: bold;
+  padding: 18px;
+  margin: 18px;
+  flex-direction: row;
+  border: 1px solid #2e3156;
+  border-radius: 10px;
+}
+
+.type-accord_items {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  grid-template-columns: 1fr 1fr;
+}
+
+.type-accord_label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.type-accord_item {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+}
+
+.accord-slider-component {
+  display: flex;
+  flex-direction: column;
+  margin: 3px;
+  padding: 2px;
+}
+
+.accord-statName {
+  display: flex;
+  flex: 30%;
+  align-items: flex-start;
+}
+
+.accord-slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 70%;
+  margin: 4px;
+  padding: 5px;
+  align-items: flex-end;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.accord-buttons {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+}
+
+.accord-reset {
+  height: 35px;
+  width: 70px;
+  padding: 2px;
+  margin: 5px;
+  border: 1px solid #2e3156;
+  border-radius: 8px;
+  color: #2e3156;
+  background-color: white;
+}
+
+.accord-apply {
+  height: 35px;
+  width: 70px;
+  padding: 2px;
+  margin: 5px;
+  border: 1px solid #2e3156;
+  border-radius: 8px;
+  color: white;
+  background-color: #2e3156;
+}

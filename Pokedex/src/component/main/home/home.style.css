@@ -1,0 +1,26 @@
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards {
+  padding: 16px;
+  display: "flex";
+  flex-direction: "row";
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cards-mobile {
+  padding: 10px 0 10px 0;
+  justify-content: center;
+}
+
+.home-mobile {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  margin: 4px;
+  padding: 10px;
+}

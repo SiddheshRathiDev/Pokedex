@@ -1,0 +1,370 @@
+.info-modal_root {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 100%;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  background-color: #deeded;
+  color: #2e3156;
+  border: none;
+  border-radius: 10px;
+}
+
+.info-modal {
+  display: flex;
+  position: relative;
+  width: 600px;
+  height: 90%;
+  overflow: hidden;
+  background-color: #deeded;
+  color: #2e3156;
+  font-weight: 600;
+  padding: 18px;
+  margin: 18px;
+  border: none;
+  border-radius: 10px;
+}
+
+.info-modal_root::-webkit-scrollbar {
+  display: none;
+}
+
+.info-image_card {
+  display: flex;
+  width: 180px;
+  height: 270px;
+  border: 2px dashed black;
+  justify-content: center;
+  align-items: center;
+  align-self: baseline;
+  border-radius: 10px;
+}
+
+.info-modal_image_header {
+  display: flex;
+  flex-direction: row;
+}
+
+.info-modal_para_header {
+  display: flex;
+  flex-direction: column;
+  flex: 70%;
+  margin: 5px;
+  padding: 2px;
+}
+
+.info-modal_header {
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.vertical-line {
+  border-left: 2px solid #70728d;
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  height: 40px;
+}
+.info-modal_header_buttons {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  padding: 2px;
+  margin: 2px;
+}
+.info-modal_para {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.info-modal_details {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-modal_details_row1 {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+}
+
+.info-modal_details_row2 {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+}
+.info-modal_details_content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px 0 40px;
+}
+
+.stats-row {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: #b0d2d2;
+  border-radius: 10px;
+  padding: 5px;
+}
+.stats-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+.stats-progress {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+label {
+  width: 80px;
+}
+.evolution-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.evolution-chain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.evolution-heading {
+  display: flex;
+}
+
+.evolution-main_card {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  height: 270px;
+  border: 2px dashed black;
+  justify-content: center;
+  align-items: center;
+  align-self: baseline;
+  border-radius: 10px;
+}
+
+.evolution-chain_arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+}
+
+.evolution-cardImage {
+  flex: 200px;
+  display: flex;
+}
+
+.evolution-cardItems {
+  color: #2e3156;
+  flex: 70px;
+  align-self: center;
+}
+
+/*?Mobile view CSS?*/
+
+.info-modal_root-mobile {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 100%;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  background-color: #deeded;
+  color: #2e3156;
+  border: none;
+  border-radius: 10px;
+}
+
+.info-modal-mobile {
+  display: flex;
+  position: relative;
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+  background-color: #deeded;
+  color: #2e3156;
+  font-weight: 600;
+  padding: 18px;
+  margin: 18px;
+  border: none;
+  border-radius: 10px;
+}
+
+.info-modal_root-mobile::-webkit-scrollbar {
+  display: none;
+}
+
+.info-image_card-mobile {
+  display: flex;
+  width: 80px;
+  height: 120px;
+  margin: 5px;
+  border: 2px dashed black;
+  justify-content: center;
+  align-items: center;
+  align-self: baseline;
+  border-radius: 10px;
+}
+
+.image-mobile {
+  width: 80px;
+  height: 110px;
+}
+
+.info-modal_image_header-mobile {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.info-modal_para_header-mobile {
+  display: flex;
+  flex-direction: column;
+  flex: 70%;
+  margin: 5px;
+  padding: 2px;
+}
+
+.info-modal_header-mobile {
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.vertical-line-mobile {
+  border-left: 2px solid #70728d;
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  height: 40px;
+}
+
+.info-modal_header_buttons-mobile {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  padding: 2px;
+  margin: 2px;
+}
+
+.info-modal_para-mobile {
+  display: flex;
+  margin: 5px;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.info-modal_details-mobile {
+  display: flex;
+  flex-direction: row;
+}
+
+.info-modal_details_row1-mobile {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.info-modal_details_row2-mobile {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+.info-modal_details_content-mobile {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 40px 0 40px;
+}
+
+.stats-row-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: #b0d2d2;
+  border-radius: 10px;
+  padding: 5px;
+}
+.stats-list-mobile {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+.stats-progress-mobile {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+label {
+  width: 80px;
+}
+.evolution-main-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.evolution-chain-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.evolution-heading-mobile {
+  display: flex;
+}
+
+.evolution-main_card-mobile {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 120px;
+  border: 2px dashed black;
+  justify-content: center;
+  align-items: center;
+  align-self: baseline;
+  border-radius: 10px;
+}
+
+.evolution-chain_arrow-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+}
+
+.evolution-chain_card-mobile {
+  width: 100px;
+  height: 120px;
+  display: flex;
+  border: 2px dashed black;
+  justify-content: center;
+  align-items: center;
+  align-self: baseline;
+  border-radius: 10px;
+}
+
+.evolution-chain-image-mobile {
+  width: 70px;
+  height: 100px;
+}
